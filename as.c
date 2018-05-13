@@ -110,7 +110,7 @@ int main() {
         for (int i = 0; i < result.size; i++) {
             printf("%d", result.numbers[i]);
             if (i < result.size - 1)
-            printf(" ");
+                printf(" ");
         }
         printf("\n");
     }
